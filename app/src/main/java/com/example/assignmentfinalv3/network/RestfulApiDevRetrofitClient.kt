@@ -17,7 +17,7 @@ import retrofit2.converter.moshi.MoshiConverterFactory
 class RestfulApiDevRetrofitClient {
 
     // Base URL for the API
-    private val BASE_URL = "https://nit3213-api-h2b3-latest.onrender.com/"
+    private val BASE_URL = "https://nit3213-api-h2b3-latest.onrender.com"
 
     // Logging interceptor to debug requests/responses
     private val logging = HttpLoggingInterceptor().apply {
