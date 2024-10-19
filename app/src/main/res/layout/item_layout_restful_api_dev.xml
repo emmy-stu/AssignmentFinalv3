@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="16dp"
-    android:backgroundTint="#FFC519">
+    android:backgroundTint="#D0A7D9">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -76,8 +76,8 @@
             android:textColor="#2B2F40"
             app:layout_constraintStart_toStartOf="@id/itemIdText"
             app:layout_constraintTop_toBottomOf="@id/itemIdText"
-            tools:text="More details are available"
-            tools:ignore="HardcodedText" />
+            tools:ignore="HardcodedText"
+            tools:text="More details are available" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/navigationButton"
@@ -85,10 +85,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
-            app:cornerRadius="8dp"
             android:backgroundTint="#060A0B"
             android:text="Show Data"
             android:textColor="@color/white"
+            app:cornerRadius="8dp"
             app:layout_constraintBottom_toBottomOf="@id/detailsText"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@id/detailsText"

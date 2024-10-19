@@ -65,6 +65,7 @@ dependencies {
     // Hilt Framework - Dependency Injection
     implementation(libs.hilt.android)
     kapt(libs.hilt.android.compiler)
+    implementation(kotlin("script-runtime"))
 }
 kapt {
     correctErrorTypes = true
