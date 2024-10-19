@@ -17,8 +17,8 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="68dp"
         tools:listitem="@layout/item_layout_restful_api_dev" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
