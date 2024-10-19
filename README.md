@@ -4,7 +4,7 @@ Written by Emre Salih (S8082164)
 
 Welcome to the AssignmnetFinalv3 Project! 
 
-Our main objective is to be able to interact with the application using the API 'https://nit3213-api-h2b3-latest.onrender.com'. 
+Our main objective is to be able to interact with the application using the API 'https://nit3213-api-h2b3-latest.onrender.com'. My topic was about languages.
 
 Dependencies that were used in the AssignmentFinalv3 Project: 
 
