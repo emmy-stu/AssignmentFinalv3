@@ -24,7 +24,7 @@ class FragmentDashboard : Fragment() {
             param2 = it.getString(ARG_PARAM2)
         }
     }
-
+//The onCreateView is meant to return the layout of the dashboard which would display the entities
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?

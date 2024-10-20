@@ -7,6 +7,10 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.assignmentfinalv3.R
 
+//Due to the complications i was facing where i couldn't get the code working...
+//More code is meant to be added into this code but due to the compliations i couldn't get it working.
+//I was originally meant to include the MutableLiveData, viewmodelscope and interact with the API
+
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
 const val ARG_PARAM1 = "param1"
@@ -29,7 +33,7 @@ class FragmentDetails : Fragment() {
             param2 = it.getString(ARG_PARAM2)
         }
     }
-
+    //The onCreateView is meant to return the layout of the details which would display a single entity
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?

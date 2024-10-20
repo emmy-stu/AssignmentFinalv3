@@ -6,6 +6,7 @@ import com.squareup.moshi.Json
 import kotlinx.parcelize.Parcelize
 
 // Declare Parcelize
+//Additionally identifying the data type of the values.
 @Parcelize
 data class ResponseItem(
     @Json(name = "name") val name: String,

@@ -19,6 +19,8 @@ class MainActivity : AppCompatActivity() {
 //    @Named("String1")
 //    lateinit var myString1:String
 
+
+    //This code would help us to get the navigation bar working.
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

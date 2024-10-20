@@ -1,5 +1,5 @@
 package com.example.assignmentfinalv3.network
-
+//This is the RestfulApiDevRetrofitClient.kt dependencies in order to run the activity file.
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import okhttp3.OkHttpClient
@@ -12,6 +12,7 @@ import retrofit2.converter.moshi.MoshiConverterFactory
 // - Configures logging for request and response bodies
 // - Uses Moshi to parse JSON into Kotlin objects
 // - Provides API service for interacting with the backend
+// - Due to the complications i was facing and not getting the file working, the API was not fully functional as i did not have the code working in order to implement it into my code.
 
 // Creates Retrofit client for API
 class RestfulApiDevRetrofitClient {

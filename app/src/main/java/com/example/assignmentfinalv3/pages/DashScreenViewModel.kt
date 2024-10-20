@@ -8,6 +8,8 @@ import com.example.assignmentfinalv3.network.RestfulApiDevRetrofitClient
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.launch
 
+//This ViewModel is meant to outline all the log messages and the API linking into the ViewModel
+
 class DashScreenViewModel: ViewModel() {
 
     val greetingText = MutableStateFlow("Hello Class")

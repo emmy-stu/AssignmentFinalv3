@@ -18,7 +18,7 @@ class ResponseItemViewHolder(
     private val navigationFunction: (ResponseItem) -> Unit // Lambda function for navigation
 ) : RecyclerView.ViewHolder(itemView) {
 
-    // View references
+    // View references for some reason this way this code works.
     private val nameTextView: TextView = itemView.findViewById(R.id.itemNametext)
     private val familyTextView: TextView = itemView.findViewById(R.id.itemIdText)
     private val branchTextView: TextView = itemView.findViewById(R.id.itemYeartext)

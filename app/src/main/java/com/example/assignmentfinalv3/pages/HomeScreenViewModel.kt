@@ -10,6 +10,8 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.launch
 
+//Here should display at least 4 entities but do not due to me not modifying the networkmodule.kt
+
 class HomeScreenViewModel: ViewModel() {
 
     val greetingText = MutableStateFlow("Hello Class")
