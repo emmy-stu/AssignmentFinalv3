@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.assignmentfinalv3.R
 import com.example.assignmentfinalv3.data.ResponseItem
 
-//The recyclerviewAdapter and it would be used to display all the ENTITIES in the code.
+//The recyclerviewAdapter it would be used to display all the ENTITIES in the code.
 
 class MyRecyclerViewAdapter(private val dataList: MutableList<ResponseItem> = mutableListOf(), private val navigationFunction: (ResponseItem) -> Unit) : RecyclerView.Adapter<ResponseItemViewHolder>() {
 
@@ -27,3 +27,4 @@ class MyRecyclerViewAdapter(private val dataList: MutableList<ResponseItem> = mu
         notifyDataSetChanged()
     }
 }
+
